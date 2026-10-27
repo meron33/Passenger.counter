@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: bold;
+  text-align: center;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+  
+}
+
+.container {
+  background: white;
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+button {
+ 
+  color: white;
+  font-size: bold;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+.btn:active {
+  transform: scale(0.98); /* Slight click effect */
+}
+
+h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+#increment-btn {
+  background:darkblue
+}
+
+#save-btn {
+  background:darkgreen
+}
